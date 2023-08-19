@@ -1,0 +1,67 @@
+
+/* IMPORTING GOOGLE FONTS FROM HERE (https://fonts.google.com/specimen/Poppins?query=poppins)
+FAMILY: poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* ------------- CSS RESET ----------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* -------x------ CSS RESET -----x-----*/
+
+body{
+    background-color: #081b29;
+}
+
+/* --------- HEADER SECTION -------- */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+/* ------x--- HEADER SECTION ----x---- */
+
+/* --------- LOGO -------- */
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+/* ----x----- LOGO ----x---- */
+
+/* --------- NAVIGATION BAR -------- */
+
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px ;
+    transition: 0.3s;
+}
+
+.navbar a:hover, 
+.navbar .active{
+    color: #00abf0;
+}
+/* -----x---- NAVIGATION BAR ---x----- */
+
+
+
+
